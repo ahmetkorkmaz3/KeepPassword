@@ -18,11 +18,6 @@ body {
   height: auto;
 }
 
-.wrapper {
-    display: flex;
-    width: 100%;
-}
-
 .content {
   padding: 20px 40px;
 }
