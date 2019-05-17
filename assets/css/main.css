@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EEF1EF;
+}
+
+
+.header {
+  background-color: #7D98A1;
+}
+
+.header a {
+  color: #C0392B;
+}
+
+.header img {
+  width: 150px;
+  height: auto;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.content {
+  padding: 20px 40px;
+}
+
+.content .title {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 14px;
+}
+
+.content .filter {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.content .filter p {
+  margin: 0;
+}
+
+.content .filter-label {
+  font-size: 14px;
+  margin: 0;
+}
+
+.content .account {
+  text-align: center;
+  margin-bottom: 20px;
+  /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+}
+
+.content .account .card-header i {
+  font-size: 60px;
+  display: block;
+  margin: 5px 0;
+  color: #C0392B;
+}
