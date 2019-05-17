@@ -4,12 +4,12 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="<?php echo assets_url('vendor/bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?php echo assets_url('vendor/fontawesome.min.css'); ?>">
+    <link rel="stylesheet" href="<?php echo assets_url('vendor/fontawesome5/css/all.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo assets_url('css/main.css') ?>">
 
     <title>
       <?php
-      if($title) {
+      if(isset($title)) {
         echo $title;
       } else {
         echo "KeepPassword";
